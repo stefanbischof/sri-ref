@@ -6463,15 +6463,7 @@ sri-ref:o998 a qb:Observation .
 
 sri-ref:o999 a qb:Observation .
 
-sri-ref:weightsNorthEuroperesidential a qb:DataSet;
-  rdfs:label "SRI weights North Europe Residential";
-  qb:structure sri:dsd-weights .
-
 sri-ref:w0 a qb:Observation .
-
-sri-ref:weightsNorthEuropenonresidential a qb:DataSet;
-  rdfs:label "SRI weights North Europe Non-residential";
-  qb:structure sri:dsd-weights .
 
 sri-ref:w1 a qb:Observation .
 
@@ -6481,51 +6473,19 @@ sri-ref:w100 a qb:Observation .
 
 sri-ref:w101 a qb:Observation .
 
-sri-ref:weightsNorthEastEuroperesidential a qb:DataSet;
-  rdfs:label "SRI weights NorthEast Europe Residential";
-  qb:structure sri:dsd-weights .
-
 sri-ref:w102 a qb:Observation .
-
-sri-ref:weightsNorthEastEuropenonresidential a qb:DataSet;
-  rdfs:label "SRI weights NorthEast Europe Non-residential";
-  qb:structure sri:dsd-weights .
 
 sri-ref:w103 a qb:Observation .
 
-sri-ref:weightsSouthEuroperesidential a qb:DataSet;
-  rdfs:label "SRI weights South Europe Residential";
-  qb:structure sri:dsd-weights .
-
 sri-ref:w104 a qb:Observation .
-
-sri-ref:weightsSouthEuropenonresidential a qb:DataSet;
-  rdfs:label "SRI weights South Europe Non-residential";
-  qb:structure sri:dsd-weights .
 
 sri-ref:w105 a qb:Observation .
 
-sri-ref:weightsSouthEastEuroperesidential a qb:DataSet;
-  rdfs:label "SRI weights SouthEast Europe Residential";
-  qb:structure sri:dsd-weights .
-
 sri-ref:w106 a qb:Observation .
-
-sri-ref:weightsSouthEastEuropenonresidential a qb:DataSet;
-  rdfs:label "SRI weights SouthEast Europe Non-residential";
-  qb:structure sri:dsd-weights .
 
 sri-ref:w107 a qb:Observation .
 
-sri-ref:weightsWestEuroperesidential a qb:DataSet;
-  rdfs:label "SRI weights West Europe Residential";
-  qb:structure sri:dsd-weights .
-
 sri-ref:w108 a qb:Observation .
-
-sri-ref:weightsWestEuropenonresidential a qb:DataSet;
-  rdfs:label "SRI weights West Europe Non-residential";
-  qb:structure sri:dsd-weights .
 
 sri-ref:w109 a qb:Observation .
 
@@ -7591,9 +7551,6 @@ sri-ref:v2d rdfs:label "Supply air temperature control at the air handling unit 
 sri-ref:v3 rdfs:label "Free cooling with mechanical ventilation system"@en .
 
 sri-ref:v6 rdfs:label "Reporting information regarding IAQ"@en .
-
-sri-ref:scores rdfs:label "has SRI scores dataset"@en;
-  qb:structure sri:dsd-sriscores .
 
 sri-ref:o0 sri:function sri-ref:h1a .
 
@@ -43215,6 +43172,49 @@ sri-ref:v2d sri:id "v2d" .
 sri-ref:v3 sri:id "v3" .
 
 sri-ref:v6 sri:id "v6" .
+
+sri-ref:weightsNorthEuropenonresidential a qb:DataSet;
+  rdfs:label "SRI weights North Europe Non-residential";
+  qb:structure sri:dsd-weights .
+
+sri-ref:weightsNorthEuroperesidential a qb:DataSet;
+  rdfs:label "SRI weights North Europe Residential";
+  qb:structure sri:dsd-weights .
+
+sri-ref:weightsNorthEastEuroperesidential a qb:DataSet;
+  rdfs:label "SRI weights NorthEast Europe Residential";
+  qb:structure sri:dsd-weights .
+
+sri-ref:weightsNorthEastEuropenonresidential a qb:DataSet;
+  rdfs:label "SRI weights NorthEast Europe Non-residential";
+  qb:structure sri:dsd-weights .
+
+sri-ref:weightsSouthEuroperesidential a qb:DataSet;
+  rdfs:label "SRI weights South Europe Residential";
+  qb:structure sri:dsd-weights .
+
+sri-ref:weightsSouthEuropenonresidential a qb:DataSet;
+  rdfs:label "SRI weights South Europe Non-residential";
+  qb:structure sri:dsd-weights .
+
+sri-ref:weightsSouthEastEuroperesidential a qb:DataSet;
+  rdfs:label "SRI weights SouthEast Europe Residential";
+  qb:structure sri:dsd-weights .
+
+sri-ref:weightsSouthEastEuropenonresidential a qb:DataSet;
+  rdfs:label "SRI weights SouthEast Europe Non-residential";
+  qb:structure sri:dsd-weights .
+
+sri-ref:weightsWestEuroperesidential a qb:DataSet;
+  rdfs:label "SRI weights West Europe Residential";
+  qb:structure sri:dsd-weights .
+
+sri-ref:weightsWestEuropenonresidential a qb:DataSet;
+  rdfs:label "SRI weights West Europe Non-residential";
+  qb:structure sri:dsd-weights .
+
+sri-ref:scores rdfs:label "has SRI scores dataset"@en;
+  qb:structure sri:dsd-sriscores .
 
 sri-ref:sc sri:service sri-ref:c1a, sri-ref:c1b, sri-ref:c1c, sri-ref:c1d, sri-ref:c1f,
     sri-ref:c1g, sri-ref:c2a, sri-ref:c2b, sri-ref:c3, sri-ref:c4, sri-ref:dE1, sri-ref:dE2,
